@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122421B5237F193D00DC5D85 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122421B4237F193D00DC5D85 /* AddTransactionView.swift */; };
+		12755732237D0A9A005224EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12755731237D0A9A005224EA /* Model.swift */; };
+		12755734237D0AA8005224EA /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12755733237D0AA8005224EA /* RealmConfig.swift */; };
+		12755736237D0BCD005224EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12755735237D0BCD005224EA /* Extensions.swift */; };
+		12755738237D17DB005224EA /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12755737237D17DB005224EA /* TransactionCell.swift */; };
+		1275573A237DE455005224EA /* AddTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12755739237DE455005224EA /* AddTransactionVC.swift */; };
+		127A86BD2381EB8100103D46 /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A86BC2381EB8100103D46 /* TransactionHeaderView.swift */; };
+		127A86BF2381F16E00103D46 /* UILabelWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127A86BE2381F16E00103D46 /* UILabelWithPadding.swift */; };
+		1293C387237E5C8F00D13B6C /* AddBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293C386237E5C8F00D13B6C /* AddBtn.swift */; };
 		12D2ED63237C9BA00065658D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2ED62237C9BA00065658D /* AppDelegate.swift */; };
 		12D2ED65237C9BA00065658D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2ED64237C9BA00065658D /* SceneDelegate.swift */; };
-		12D2ED67237C9BA00065658D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2ED66237C9BA00065658D /* ViewController.swift */; };
-		12D2ED6A237C9BA00065658D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D2ED68237C9BA00065658D /* Main.storyboard */; };
+		12D2ED67237C9BA00065658D /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2ED66237C9BA00065658D /* MainTVC.swift */; };
 		12D2ED6C237C9BA20065658D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D2ED6B237C9BA20065658D /* Assets.xcassets */; };
 		12D2ED6F237C9BA20065658D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D2ED6D237C9BA20065658D /* LaunchScreen.storyboard */; };
+		46C269FE311951F0B10C8611 /* Pods_SectionTableViewRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA715C00FDC88093AE4D421C /* Pods_SectionTableViewRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122421B4237F193D00DC5D85 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		12755731237D0A9A005224EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		12755733237D0AA8005224EA /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		12755735237D0BCD005224EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		12755737237D17DB005224EA /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		12755739237DE455005224EA /* AddTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionVC.swift; sourceTree = "<group>"; };
+		127A86BC2381EB8100103D46 /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
+		127A86BE2381F16E00103D46 /* UILabelWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelWithPadding.swift; sourceTree = "<group>"; };
+		1293C386237E5C8F00D13B6C /* AddBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBtn.swift; sourceTree = "<group>"; };
 		12D2ED5F237C9BA00065658D /* SectionTableViewRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SectionTableViewRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D2ED62237C9BA00065658D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D2ED64237C9BA00065658D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12D2ED66237C9BA00065658D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12D2ED69237C9BA00065658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12D2ED66237C9BA00065658D /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
 		12D2ED6B237C9BA20065658D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12D2ED6E237C9BA20065658D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12D2ED70237C9BA20065658D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEC5114307AFD9A76B942FA /* Pods-SectionTableViewRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionTableViewRealm.release.xcconfig"; path = "Target Support Files/Pods-SectionTableViewRealm/Pods-SectionTableViewRealm.release.xcconfig"; sourceTree = "<group>"; };
+		CA715C00FDC88093AE4D421C /* Pods_SectionTableViewRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SectionTableViewRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8431BF10C6B5207DC306416 /* Pods-SectionTableViewRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SectionTableViewRealm.debug.xcconfig"; path = "Target Support Files/Pods-SectionTableViewRealm/Pods-SectionTableViewRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C269FE311951F0B10C8611 /* Pods_SectionTableViewRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				12D2ED61237C9BA00065658D /* SectionTableViewRealm */,
 				12D2ED60237C9BA00065658D /* Products */,
+				F50A1E28B56A9A8DBECEDD20 /* Pods */,
+				74982EC8BC371E1268AF57A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,38 @@
 			children = (
 				12D2ED62237C9BA00065658D /* AppDelegate.swift */,
 				12D2ED64237C9BA00065658D /* SceneDelegate.swift */,
-				12D2ED66237C9BA00065658D /* ViewController.swift */,
-				12D2ED68237C9BA00065658D /* Main.storyboard */,
+				12D2ED66237C9BA00065658D /* MainTVC.swift */,
+				12755739237DE455005224EA /* AddTransactionVC.swift */,
 				12D2ED6B237C9BA20065658D /* Assets.xcassets */,
 				12D2ED6D237C9BA20065658D /* LaunchScreen.storyboard */,
 				12D2ED70237C9BA20065658D /* Info.plist */,
+				12755731237D0A9A005224EA /* Model.swift */,
+				12755733237D0AA8005224EA /* RealmConfig.swift */,
+				12755735237D0BCD005224EA /* Extensions.swift */,
+				12755737237D17DB005224EA /* TransactionCell.swift */,
+				1293C386237E5C8F00D13B6C /* AddBtn.swift */,
+				122421B4237F193D00DC5D85 /* AddTransactionView.swift */,
+				127A86BC2381EB8100103D46 /* TransactionHeaderView.swift */,
+				127A86BE2381F16E00103D46 /* UILabelWithPadding.swift */,
 			);
 			path = SectionTableViewRealm;
+			sourceTree = "<group>";
+		};
+		74982EC8BC371E1268AF57A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA715C00FDC88093AE4D421C /* Pods_SectionTableViewRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50A1E28B56A9A8DBECEDD20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8431BF10C6B5207DC306416 /* Pods-SectionTableViewRealm.debug.xcconfig */,
+				9DEC5114307AFD9A76B942FA /* Pods-SectionTableViewRealm.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12D2ED73237C9BA20065658D /* Build configuration list for PBXNativeTarget "SectionTableViewRealm" */;
 			buildPhases = (
+				EDD6FF2A5C1DBE64D792AFBE /* [CP] Check Pods Manifest.lock */,
 				12D2ED5B237C9BA00065658D /* Sources */,
 				12D2ED5C237C9BA00065658D /* Frameworks */,
 				12D2ED5D237C9BA00065658D /* Resources */,
+				2FA0FA8F5BF383B9BA5D8CCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +177,76 @@
 			files = (
 				12D2ED6F237C9BA20065658D /* LaunchScreen.storyboard in Resources */,
 				12D2ED6C237C9BA20065658D /* Assets.xcassets in Resources */,
-				12D2ED6A237C9BA00065658D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FA0FA8F5BF383B9BA5D8CCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SectionTableViewRealm/Pods-SectionTableViewRealm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SectionTableViewRealm/Pods-SectionTableViewRealm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SectionTableViewRealm/Pods-SectionTableViewRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD6FF2A5C1DBE64D792AFBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SectionTableViewRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12D2ED5B237C9BA00065658D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D2ED67237C9BA00065658D /* ViewController.swift in Sources */,
+				1293C387237E5C8F00D13B6C /* AddBtn.swift in Sources */,
+				12755738237D17DB005224EA /* TransactionCell.swift in Sources */,
+				12D2ED67237C9BA00065658D /* MainTVC.swift in Sources */,
+				12755736237D0BCD005224EA /* Extensions.swift in Sources */,
 				12D2ED63237C9BA00065658D /* AppDelegate.swift in Sources */,
+				12755734237D0AA8005224EA /* RealmConfig.swift in Sources */,
 				12D2ED65237C9BA00065658D /* SceneDelegate.swift in Sources */,
+				1275573A237DE455005224EA /* AddTransactionVC.swift in Sources */,
+				127A86BF2381F16E00103D46 /* UILabelWithPadding.swift in Sources */,
+				12755732237D0A9A005224EA /* Model.swift in Sources */,
+				122421B5237F193D00DC5D85 /* AddTransactionView.swift in Sources */,
+				127A86BD2381EB8100103D46 /* TransactionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12D2ED68237C9BA00065658D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12D2ED69237C9BA00065658D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12D2ED6D237C9BA20065658D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +374,7 @@
 		};
 		12D2ED74237C9BA20065658D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8431BF10C6B5207DC306416 /* Pods-SectionTableViewRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		12D2ED75237C9BA20065658D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEC5114307AFD9A76B942FA /* Pods-SectionTableViewRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
